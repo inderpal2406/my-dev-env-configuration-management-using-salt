@@ -1,0 +1,6 @@
+order deny,allow
+
+deny from all
+
+# Below subnet range can be changed to allow access from desired network.
+allow from 0.0.0.0/0
