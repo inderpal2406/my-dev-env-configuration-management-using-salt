@@ -4,6 +4,7 @@ install_utility_softwares:
     - pkgs:
       - shellcheck
       - tree
+      - zsh
 
 install_remotehelp_softwares:
   pkg.installed:
