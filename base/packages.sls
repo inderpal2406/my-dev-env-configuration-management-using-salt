@@ -5,6 +5,7 @@ install_utility_softwares:
       - shellcheck
       - tree
       - zsh
+      - whois		# to check domain names and generate random passwords and password hashes using mkpasswd.
 
 install_remotehelp_softwares:
   pkg.installed:

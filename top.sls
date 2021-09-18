@@ -7,6 +7,7 @@ base:
   '*':
     # List of state files that need to be applied to all minions.
     - base.packages
+    - base.admin-user
   'dev*':
     - dev.editors
     - dev.debug
