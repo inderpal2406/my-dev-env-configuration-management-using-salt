@@ -26,4 +26,5 @@ removeall_custom_softwares:
       - ufw
       #- iptables
       - logrotate
+      - whois
 
